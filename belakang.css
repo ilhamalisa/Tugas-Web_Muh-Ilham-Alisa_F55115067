@@ -1,0 +1,166 @@
+* {
+	margin : 0;
+	padding : 0;
+}
+body {
+	background-color : yellow;
+}
+#bungkus {
+	width : 1250px;
+	height : 900px;
+	margin-bottom : 5px;
+	background-color : rgb(2,100,145);
+	float: center;
+}
+#kiri{
+	height: 800px;
+	width: 600px;
+	float: left;
+}
+#buat_vidio {
+	width: 600px;
+	height: 350px;
+	padding-top: 25px;
+	background-color: black;
+}
+#antara{
+	width: 600px;
+	height: 50px;
+	background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#49A3B0), to(#F6FF52));
+}
+#anak{
+	width: 600px;
+	height: 300x;
+	overflow: hidden;
+}
+#anak th{
+	width: 200px;
+	height: 68px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 30px;
+}
+#kanan{
+	width: 640px;
+	height: 800px;
+	float: right;
+}
+#kanan_atas{
+	width: 640px;
+	height: 150px;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	background:-webkit-gradient(radial, 165 0, 0, 317 226, 465, from(#888B7F), to(#FFFFFF));
+}
+#kanan_tengah{
+	width: 640px;
+	height: 400px;
+	border: 1px solid black;
+}
+#kanan_bawah{
+	width: 640px;
+	height: 240px;
+}
+#kanan_bawah th{
+	width: 210px;
+	height: 74px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+#bawah{
+	width: 1250px;
+	height: 90px;
+	overflow: hidden;
+	margin-top: 20px;
+}
+#bawahkiri{
+	padding-top: 18px;
+	width: 800px;
+	height: 80px;
+	font-family: arial;
+	font-size: 20px;
+	float: left;
+	background:-webkit-gradient(radial, 165 32, 0, 220 -257, 465, from(#0067A2), to(#000F73));
+	border-top-right-radius: 20px;
+}
+#bawahkanan{
+	width: 430px;
+	height: 80px;
+	float : left;
+	margin: 10px 10px 10px 10px;
+	border-top-left-radius: 20px;
+	background:-webkit-gradient(radial, 165 0, 0, 317 226, 465, from(#888B7F), to(#FFFFFF));
+}
+#kanan_atas img{
+	float: right;
+}
+
+#slider {
+    width: 700px; /* important to be same as image width */
+    height: 325px; /* important to be same as image height */
+    position: relative; /* important */
+	overflow: hidden; /* important */
+}
+#sliderContent {
+    width: 700px; /* important to be same as image width or wider */
+    position: absolute;
+	right: 0;
+	margin: 0;
+}
+.sliderImage {
+    float: left;
+    position: relative;
+	display: none;
+}
+.sliderImage span {
+    position: absolute;
+	font: 10px/15px Arial, Helvetica, sans-serif;
+    padding: 10px 13px;
+    width: 575px;
+    background-color: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.5;
+	-khtml-opacity: 0.5;
+    opacity: 0.5;
+    color: #fff;
+    display: none;
+}
+.clear {
+	clear: both;
+}
+.sliderImage span strong {
+    font-size: 14px;
+}
+.top {
+	top: 0;
+	left: 0;
+}
+.bottom {
+	bottom: 0;
+    left: 0;
+}
+ul { list-style-type: none;}
+
+.sliderImage img{
+	height: 300px;
+	width: 600px;
+}
+.jam{
+    margin-top: 10px;
+    padding: 0 0 0 20px;
+    float: left;
+    font-family:Impact;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.atastanggal{
+    height: 25px;
+    width: 150px;
+    font-family: monospace;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+    color: white;
+}
